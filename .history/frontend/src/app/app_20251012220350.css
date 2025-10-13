@@ -1,0 +1,7 @@
+/* app.component.css */
+nav {
+  display: flex;
+  gap: 1rem;
+  background: #f2f2f2;
+  padding: 1rem;
+}
