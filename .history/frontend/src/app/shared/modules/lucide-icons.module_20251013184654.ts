@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { LucideAngularModule, LayoutDashboard, Upload, GitCompare, CircleAlert, Settings, FileText, History, LogOut, Search, FilePen, Trash2, Plus, SettingsIcon } from 'lucide-angular';
+import { LucideAngularModule, LayoutDashboard, Upload, GitCompare, CircleAlert, Settings, FileText, History, LogOut, Search, fileed, Trash2, Plus, SettingsIcon } from 'lucide-angular';
 
 @NgModule({
     imports: [

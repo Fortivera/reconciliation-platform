@@ -24,43 +24,43 @@
                 <z-sidebar-group>
                     <z-sidebar-group-label>Menu</z-sidebar-group-label>
                     <button z-button zType="ghost" class="justify-start">
-                        <lucide-icon name="layout-dashboard" class="w-6 h-6 flex items-center justify-start"></lucide-icon>
+                        <lucide-icon name="layout-dashboard" class="w-6 h-6"></lucide-icon>
                         <span class="ml-2">
                             <a routerLink="/" routerLinkActive="active">Dashboard</a>
                         </span>
                     </button>
                     <button z-button zType="ghost" class="justify-start">
-                        <lucide-icon name="upload" class="w-6 h-6 flex items-center justify-start"></lucide-icon>
+                        <lucide-icon name="upload" class="w-6 h-6"></lucide-icon>
                         <span class="ml-2">
                             <a routerLink="/upload" routerLinkActive="active">Upload</a>
                         </span>
                     </button>
                     <button z-button zType="ghost" class="justify-start">
-                        <lucide-icon name="git-compare" class="w-6 h-6 flex items-center justify-start"></lucide-icon>
+                        <lucide-icon name="git-compare" class="w-6 h-6"></lucide-icon>
                         <span class="ml-2">
                             <a routerLink="/matching" routerLinkActive="active">Matching</a>
                         </span>
                     </button>
                     <button z-button zType="ghost" class="justify-start">
-                        <lucide-icon name="circle-alert" class="w-6 h-6 flex items-center justify-start"></lucide-icon>
+                        <lucide-icon name="circle-alert" class="w-6 h-6"></lucide-icon>
                         <span class="ml-2">
                             <a routerLink="/exceptions" routerLinkActive="active">Exceptions</a>
                         </span>
                     </button>
                     <button z-button zType="ghost" class="justify-start">
-                        <lucide-icon name="settings" class="w-6 h-6 flex items-center justify-start"></lucide-icon>
+                        <lucide-icon name="settings" class="w-6 h-6"></lucide-icon>
                         <span class="ml-2">
                             <a routerLink="/rules" routerLinkActive="active">Rules</a>
                         </span>
                     </button>
                     <button z-button zType="ghost" class="justify-start">
-                        <lucide-icon name="history" class="w-6 h-6 flex items-center justify-start"></lucide-icon>
+                        <lucide-icon name="history" class="w-6 h-6"></lucide-icon>
                         <span class="ml-2">
                             <a routerLink="/audit-trail" routerLinkActive="active">Audit Trail</a>
                         </span>
                     </button>
                     <button z-button zType="ghost" class="justify-start">
-                        <lucide-icon name="file-text" class="w-6 h-6 flex items-center justify-start"></lucide-icon>
+                        <lucide-icon name="file-text" class="w-6 h-6"></lucide-icon>
                         <span class="ml-2">
                             <a routerLink="/reports" routerLinkActive="active">Reports</a>
                         </span>
@@ -90,7 +90,7 @@
 
         <z-layout>
             <z-content>
-                <div *ngIf="router.url === '/'">
+                <div *ngIf="router.url === '/'"></div>
                     <div class="space-y-4">
                         <z-skeleton class="h-32 w-full"></z-skeleton>
                         <z-skeleton class="h-48 w-full"></z-skeleton>
