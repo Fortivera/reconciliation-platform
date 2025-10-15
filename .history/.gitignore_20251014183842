@@ -1,0 +1,24 @@
+# === Global ignores ===
+# Ignore project-wide build artifacts and dependencies
+/node_modules
+/target/
+
+# Ignore documentation build output
+/docs/build/
+
+# === Frontend (Angular) ignores ===
+/frontend/dist/
+/frontend/npm-debug.log*
+/frontend/node_modules/
+
+# === Backend (Java) ignores ===
+/backend/target/
+/backend/pom.xml.tag
+/backend/pom.xml.releaseBackup
+/backend/pom.xml.versionsBackup
+/backend/release.properties
+
+# === ML-Service (Python) ignores ===
+/ml-service/__pycache__/
+/ml-service/venv/
+/ml-service/pip-log.txt
