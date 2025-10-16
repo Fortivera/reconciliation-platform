@@ -61,7 +61,7 @@ For more information on using the Angular CLI, including detailed command refere
 
 An intelligent automated reconciliation tool for banking and financial transactions.
 
-## 🎯 Features
+##  Features
 
 - **Automated Matching**: Multi-phase matching algorithm (exact, fuzzy, partial, ML-based)
 - **Intelligent Processing**: Handles split payments, combined transactions, and bank fees
@@ -70,14 +70,14 @@ An intelligent automated reconciliation tool for banking and financial transacti
 - **Audit Trail**: Complete history of all reconciliation actions
 - **Export Reports**: PDF, Excel, and CSV format reports
 
-## 🏗️ Architecture
+##  Architecture
 
 - **Frontend**: Angular 16+ with TypeScript
 - **Backend**: Java 17 + Spring Boot 3.x
 - **ML Service**: Python 3.11 + Flask
 - **Database**: PostgreSQL 15
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -110,7 +110,7 @@ docker-compose up
 - Backend API: http://localhost:8080/api
 - API Docs: http://localhost:8080/swagger-ui.html
 
-## 📁 Project Structure
+##  Project Structure
 ````
 reconciliation-platform/
 ├── frontend/          # Angular application
