@@ -1,9 +1,0 @@
-    // vercel.json in the root of your project
-    {
-        "rewrites": [
-            {
-                "source": "/(.*)",
-                "destination": "/index.html"
-            }
-        ]
-    }

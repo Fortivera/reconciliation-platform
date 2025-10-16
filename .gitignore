@@ -1,0 +1,23 @@
+# IDE/editor history folders
+.history/
+
+# Node.js frontend
+frontend/node_modules/
+frontend/.angular/
+frontend/dist/
+
+# Java backend
+backend/target/
+backend/.idea/
+backend/.classpath
+backend/.project
+backend/.settings/
+
+# Python ML service
+ml-service/__pycache__/
+ml-service/.venv/
+ml-service/venv/
+
+# Logs and temp
+*.log
+*.tmp
