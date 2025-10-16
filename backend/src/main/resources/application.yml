@@ -1,0 +1,10 @@
+app:
+  matching:
+    fuzzy-match-threshold: 0.85    # Lower = more matches (less accurate)
+    # Higher = fewer matches (more accurate)
+
+    date-tolerance-days: 3         # ±3 days allowed
+    # Increase for slower banking systems
+
+    amount-tolerance: 0.01         # $0.01 rounding tolerance
+    # Adjust for currency differences

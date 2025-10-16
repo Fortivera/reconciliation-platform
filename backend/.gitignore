@@ -1,0 +1,46 @@
+# ======== MAVEN / SPRING BOOT ========
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!.**/src/main/**/target/
+!.**/src/test/**/target/
+
+# ======== STS / SPRING TOOL SUITE ========
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# ======== IntelliJ IDEA ========
+.idea
+*.iws
+*.iml
+*.ipr
+
+# ======== NetBeans ========
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ======== Gradle ========
+build/
+!.**/src/main/**/build/
+!.**/src/test/**/build/
+
+# ======== VS Code ========
+.vscode/
+
+# ======== FRONTEND (Angular) ========
+frontend/node_modules/
+frontend/.angular/
+frontend/dist/
+
+# ======== ENV & SENSITIVE FILES ========
+.env
+.env.local
+.env.*.local
+
