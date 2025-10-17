@@ -1,7 +1,7 @@
 # IDE/editor history folders
 .history/
 
-# Node.js frontend
+# Angular frontend
 frontend/node_modules/
 frontend/.angular/
 frontend/dist/
